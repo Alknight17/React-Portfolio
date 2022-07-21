@@ -22,7 +22,7 @@ function App() {
   }; 
   return (
     <div className="App">
-      <Header />
+      <Header setPage={setPage} />
       {checkPage()}
       <Footer />
     </div>
