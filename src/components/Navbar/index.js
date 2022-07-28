@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
   faUser,
+  faFileClipboard,
   faEnvelope,
   faLineChart,
   faGears,
@@ -23,6 +24,14 @@ const Navbar = () => (
         to="/about"
       >
         <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+      </NavLink>
+      <NavLink
+        exact="true"
+        activeclassname="active"
+        className="portfolio-link"
+        to="/portfolio"
+      >
+        <FontAwesomeIcon icon={faFileClipboard} color="#4d4d4e" />
       </NavLink>
       <NavLink
         exact="true"
