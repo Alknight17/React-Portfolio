@@ -1,11 +1,19 @@
 import "./index.scss";
 import Navbar from "../Navbar";
+import { Outlet } from 'react-router-dom'
 
 const Layout = () => {
   return (
-    <>
-      <Navbar />
-    </>
+   <div className="App">
+    <Navbar />
+    <div className="page">
+       
+      <Outlet />
+
+  
+    <br />
+    </div>
+   </div>
   );
 };
 
