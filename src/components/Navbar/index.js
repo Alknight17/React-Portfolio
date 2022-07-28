@@ -1,7 +1,14 @@
 import "./index.scss";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHome,
+  faUser,
+  faEnvelope,
+  faLineChart,
+  faGears,
+  faVideo
+} from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => (
   <div className="nav-bar">
@@ -26,6 +33,35 @@ const Navbar = () => (
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
       </NavLink>
     </nav>
+    <ul>
+    <li>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/Alknight17"
+        >
+          <FontAwesomeIcon icon={faGears} color="#4d4d4e" />
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/alex-knight-3a6061138/"
+        >
+          <FontAwesomeIcon icon={faLineChart} color="#4d4d4e" />
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.youtube.com/channel/UCWD1ZKBg8mFsPEIYgGPJLIA"
+        >
+          <FontAwesomeIcon icon={faVideo} color="#4d4d4e" />
+        </a>
+      </li>
+    </ul>
   </div>
 );
 
