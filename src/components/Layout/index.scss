@@ -19,18 +19,10 @@
     animation-delay: 1s;
 }
 
-.about-page,
-.contact-page {
-    .text-zone {
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 35%;
-        vertical-align: middle;
-        display: table-cell;
-        max-height: 90%;
-    
+.container.about-page,
+.container.portfolio-page,
+.container.contact-page  {
+   
         h1 {
             font-size: 50px;
             font-family: 'Coolvetica';
@@ -38,7 +30,7 @@
             font-weight: 400;
             margin-top: 0;
             position: relative;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
             left: 10px;
         }
 
@@ -49,5 +41,15 @@
             font-weight: 300;
             min-width: fit-content;
         }
+
+        .text-zone {
+            position: absolute;
+            left: 10%;
+            top: 40%;
+            transform: translateY(-50%);
+            width: 35%;
+            vertical-align: middle;
+            display: table-cell;
+            max-height: 90%;
     }
-}
+} 

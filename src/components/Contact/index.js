@@ -6,7 +6,6 @@ const Contact = () => {
       <div className="container contact-page">
         <div className="text-zone">
           <h1>Contact Me</h1>
-          <p>Insert placeholder paragraph that will eventually say something</p>
           <br></br>
         </div>
         <div className="contact-form">
@@ -40,6 +39,6 @@ const Contact = () => {
   );
 };
 
-
+ 
 
 export default Contact;
