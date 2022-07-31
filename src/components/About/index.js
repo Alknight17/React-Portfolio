@@ -15,7 +15,7 @@ const About = () => {
                 <p>
                     I am a dedicated learner, and I will do whatever I can to figure out a solution to my problems. Even when I 
                     do not feel the most confident, I still have the perserverance to press forward and remind myself
-                    that there is alwaya an answer to be found. After finishing a six month coding bootcamp I 
+                    that there is always an answer to be found. After finishing a six month coding bootcamp I 
                     feel like I have learned alot about web dev, but more importantly, I've learned how to use online
                     resources to get myself unstuck. 
                 </p>
@@ -27,8 +27,8 @@ const About = () => {
             
                 </p>
             </div>
-
         </div>
+        
 
     )
 }

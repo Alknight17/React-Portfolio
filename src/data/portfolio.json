@@ -1,40 +1,41 @@
 {
     "portfolio" : [
         {
-            "cover": "../portfolio/portfolio1/one.png",
-            "title": "GGWP",
-            "description": "description",
-            "url": "http://google.com"
+            "cover": "../portfolio/images/Glassfiller.png",
+            "title": "Glassfiller",
+            "description": "Thirsty?",
+            "url": "https://glassfiller.herokuapp.com/"
         },
         {
-            "cover": "../portfolio/portfolio1/chimneychanga.jpg",
-            "title": "GGWP",
-            "description": "description",
-            "url": "http://google.com"
+            "cover": "../portfolio/images/WDS.png",
+            "title": "Workday Scheduler",
+            "description": "Plan your day",
+            "url": "https://alknight17.github.io/work-day-scheduler/"
         },
         {
-            "cover": "../portfolio/portfolio1/one.png",
-            "title": "GGWP",
-            "description": "description",
-            "url": "http://google.com"
+            "cover": "../portfolio/images/password.png",
+            "title": "Password Generator",
+            "description": "Security is key",
+            "url": "https://alknight17.github.io/password-gen/"
         },
         {
-            "cover": "../portfolio/portfolio1/one.png",
-            "title": "GGWP",
-            "description": "description",
-            "url": "http://google.com"
+            "cover": "../portfolio/images/socialAPI.png",
+            "title": "Backend Social API",
+            "description": "Connect with others",
+            "url": "https://github.com/Alknight17/Social-Media-API"
         },
         {
-            "cover": "../portfolio/portfolio1/one.png",
-            "title": "GGWP",
-            "description": "description",
-            "url": "http://google.com"
+            "cover": "../portfolio/images/runbuddy.png",
+            "title": "Run Buddy",
+            "description": "Hit the ground running",
+            "url": "https://alknight17.github.io/run-buddy/"
         },
+       
         {
-            "cover": "../portfolio/portfolio1/one.png",
-            "title": "GGWP",
-            "description": "description",
-            "url": "http://google.com"
+            "cover": "../portfolio/images/weather.png",
+            "title": "Weather Dashboard",
+            "description": "See this weeks forecast",
+            "url": "https://alknight17.github.io/weather-dashboard/"
         }
     ]
 }
