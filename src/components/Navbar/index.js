@@ -8,7 +8,8 @@ import {
   faEnvelope,
   faLineChart,
   faGears,
-  faVideo
+  faVideo,
+  faDiagramProject,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => (
@@ -43,8 +44,21 @@ const Navbar = () => (
       </NavLink>
     </nav>
     <ul>
-    <li>
+      <li>
         <a
+          exact="true"
+          activeclassname="active"
+          className="resume-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://drive.google.com/file/d/0B5pDHUz7sSytTERRSURpUDJwUU93UHF4ckpaakthTXZNclcw/view?usp=sharing&resourcekey=0--L4tkQ008EGQExECjjOr9g"
+        >
+          <FontAwesomeIcon icon={faDiagramProject} color="#4d4d4e" />
+        </a>
+        <a
+          exact="true"
+          activeclassname="active"
+          className="github-link"
           target="_blank"
           rel="noreferrer"
           href="https://github.com/Alknight17"
@@ -54,6 +68,9 @@ const Navbar = () => (
       </li>
       <li>
         <a
+          exact="true"
+          activeclassname="active"
+          className="contact-link"
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/alex-knight-3a6061138/"
@@ -63,6 +80,9 @@ const Navbar = () => (
       </li>
       <li>
         <a
+          exact="true"
+          activeclassname="active"
+          className="contact-link"
           target="_blank"
           rel="noreferrer"
           href="https://www.youtube.com/channel/UCWD1ZKBg8mFsPEIYgGPJLIA"

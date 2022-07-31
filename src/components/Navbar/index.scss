@@ -75,9 +75,28 @@ nav {
       }
     }
 
-    a.portfolio-link {
+  
+    a.resume-link {
       &:after {
-        content: 'PROJECTS';
+        content: 'RESUME';
+      }
+    }
+
+    a.github-link {
+      &:after {
+        content: 'GITHUB';
+      }
+    }
+
+    a.linkedin-link {
+      &:after {
+        content: 'LINKEDIN';
+      }
+    }
+
+    a.youtube-link {
+      &:after {
+        content: 'YOUTUBE';
       }
     }
 
